@@ -27,6 +27,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\Administrator\\Desktop\\Examen_1_vanguardia\\Back_End\\MyTunes-app.api\\MyTunes-app.Core\\MyTunes-app.Core.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\Examen_1_vanguardia\\Back_End\\MyTunes-app.api\\MyTunes-app.Core\\MyTunes-app.Core.csproj"
+              },
               "C:\\Users\\Administrator\\Desktop\\Examen_1_vanguardia\\Back_End\\MyTunes-app.api\\MyTunes_APP.Infraestructure\\MyTunes_APP.Infraestructure.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\Desktop\\Examen_1_vanguardia\\Back_End\\MyTunes-app.api\\MyTunes_APP.Infraestructure\\MyTunes_APP.Infraestructure.csproj"
               }
@@ -120,6 +123,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -190,6 +199,10 @@
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.10.0, )"
             }
           },
           "imports": [

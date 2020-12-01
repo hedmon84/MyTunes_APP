@@ -1,4 +1,6 @@
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\bin\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.deps.json
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\bin\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.runtimeconfig.json
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\bin\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.runtimeconfig.dev.json
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\bin\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\bin\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.pdb
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\bin\Debug\netcoreapp3.1\MyTunes-app.Core.dll
@@ -6,10 +8,8 @@ C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTu
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\obj\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.csprojAssemblyReference.cache
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\obj\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.AssemblyInfoInputs.cache
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\obj\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\obj\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\obj\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.csproj.CopyComplete
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\obj\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\obj\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.pdb
-C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\bin\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.runtimeconfig.json
-C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\bin\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.runtimeconfig.dev.json
-C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\obj\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes_APP.Infraestructure\obj\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.genruntimeconfig.cache

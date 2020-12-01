@@ -7,6 +7,7 @@ C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTu
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\MyTunes-app.api.runtimeconfig.dev.json
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\MyTunes-app.api.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\MyTunes-app.api.pdb
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
@@ -33,6 +34,7 @@ C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTu
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\Nest.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
@@ -74,12 +76,13 @@ C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTu
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\MyTunes-app.Core.dll
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.dll
-C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.pdb
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\MyTunes-app.Core.pdb
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\bin\Debug\netcoreapp3.1\MyTunes_APP.Infraestructure.pdb
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\obj\Debug\netcoreapp3.1\MyTunes-app.api.csprojAssemblyReference.cache
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\obj\Debug\netcoreapp3.1\MyTunes-app.api.AssemblyInfoInputs.cache
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\obj\Debug\netcoreapp3.1\MyTunes-app.api.AssemblyInfo.cs
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\obj\Debug\netcoreapp3.1\MyTunes-app.api.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\obj\Debug\netcoreapp3.1\MyTunes-app.api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\obj\Debug\netcoreapp3.1\MyTunes-app.api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\obj\Debug\netcoreapp3.1\MyTunes-app.api.RazorTargetAssemblyInfo.cache
 C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.api\obj\Debug\netcoreapp3.1\MyTunes-app.api.csproj.CopyComplete

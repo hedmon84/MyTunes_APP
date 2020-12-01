@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MyTunes-app.Core\MyTunes-app.Core.csproj" />
     <ProjectReference Include="..\MyTunes_APP.Infraestructure\MyTunes_APP.Infraestructure.csproj" />
   </ItemGroup>
 
