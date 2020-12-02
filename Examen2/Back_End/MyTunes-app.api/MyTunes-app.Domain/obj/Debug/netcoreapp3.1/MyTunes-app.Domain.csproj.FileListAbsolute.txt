@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.Domain\bin\Debug\netcoreapp3.1\MyTunes-app.Domain.deps.json
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.Domain\bin\Debug\netcoreapp3.1\MyTunes-app.Domain.dll
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.Domain\bin\Debug\netcoreapp3.1\MyTunes-app.Domain.pdb
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.Domain\obj\Debug\netcoreapp3.1\MyTunes-app.Domain.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.Domain\obj\Debug\netcoreapp3.1\MyTunes-app.Domain.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.Domain\obj\Debug\netcoreapp3.1\MyTunes-app.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.Domain\obj\Debug\netcoreapp3.1\MyTunes-app.Domain.dll
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.Domain\obj\Debug\netcoreapp3.1\MyTunes-app.Domain.pdb
+C:\Users\Administrator\Desktop\Examen_1_vanguardia\Back_End\MyTunes-app.api\MyTunes-app.Domain\obj\Debug\netcoreapp3.1\MyTunes-app.Domain.csprojAssemblyReference.cache
