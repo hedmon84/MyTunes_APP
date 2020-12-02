@@ -103,6 +103,7 @@ namespace MyTunes_app.Core.Services
                 Msongs = a.Msongs,
                 Price = Convert.ToDecimal(a.Msongs.Sum(x => x.Price) - 0.10),
                 Rating = a.Msongs.Count() == 0 ? 0 : a.Msongs.Sum(x => x.Rating) / a.Msongs.Count(),
+                Duration = Math.Round(a.Msongs.Sum(x => x.Duration), 1),
                 Style = a.Style,
 
 
@@ -114,7 +115,7 @@ namespace MyTunes_app.Core.Services
 
             //List<HomePage> total = new List<HomePage>();
 
-            //var list1 = list2.OrderByDescending(x => x.Rating).Take(10);
+            var list1 = list2.OrderByDescending(x => x.Rating).Take(10);
 
             //foreach (var item in list1)
             //{
@@ -129,31 +130,26 @@ namespace MyTunes_app.Core.Services
             //}
 
 
-      
 
 
-            return ServiceResult<IEnumerable<Album>>.SuccessResult(list2); 
 
-        }
-
-        struct MyAlbum
-        {
-
-            public string Nombre;
-            public string Artista;
-            public double duracion;
+            return ServiceResult<IEnumerable<Album>>.SuccessResult(list1); 
 
         }
 
-        public ServiceResult<string> Profile()
+  
+
+        public ServiceResult<IEnumerable<Album>> Profile()
         {
             List = new List<Album>();
 
-            List<MyAlbum> Album_Pucharse = new List<MyAlbum>();
+            List<Album> Album_Pucharse = new List<Album>();
 
-            MyAlbum Prof_List = new MyAlbum();
+           
+
 
             var myalbums = _albumsRepositories.GetAllAlbumWithSogs();
+            bool flag = false;
 
 
             foreach (var items in myalbums)
@@ -161,49 +157,51 @@ namespace MyTunes_app.Core.Services
 
                 if (items.Buyalbum == true)
                 {
-                    Prof_List.Nombre = items.Album_name;
-                    Prof_List.Artista = items.Artist_name;
-
+                    
                     foreach (var item2 in items.Msongs)
                     {
                         if (item2.Buyclick == true)
                         {
 
-                            Prof_List.duracion += item2.Duration;
+                            items.Duration += item2.Duration;
+
                         }
                     }
 
 
-                    Album_Pucharse.Add(Prof_List);
+                    Album_Pucharse.Add(items);
 
 
                 }
                 else
                 {
-                    Prof_List.Nombre = items.Album_name;
-                    Prof_List.Artista = items.Artist_name;
-
-
+           
 
                     foreach (var item2 in items.Msongs)
                     {
                         if (item2.Buyclick == true)
                         {
-                            Prof_List.duracion += item2.Duration;
-                            Album_Pucharse.Add(Prof_List);
+                            items.Duration += item2.Duration;
+                            Album_Pucharse.Add(items);
                         }
+                    }
+
+                    if(flag == true)
+                    {
+                        Album_Pucharse.Add(items);
+                        flag = false;
+
                     }
 
                 }
 
             }
 
-            string stringjson = JsonConvert.SerializeObject(Album_Pucharse);
 
 
 
 
-            return ServiceResult<string>.SuccessResult(stringjson);
+            return ServiceResult<IEnumerable<Album>>.SuccessResult(Album_Pucharse);
         }
 
         public ServiceResult<Album> RankAlbum(int albumid, int Rating)

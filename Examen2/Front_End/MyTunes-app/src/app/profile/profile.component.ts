@@ -11,14 +11,26 @@ import { Songs } from '../models/Songs';
 export class ProfileComponent implements OnInit {
 
   constructor(private DataServiceService: DataServiceService) { }
-  albums: Album[] = [];
+  Myalbums: Album[] = [];
   allAlbums: Array<Album> = [];
 
 
 
   ngOnInit(): void {
-    this.albums = this.DataServiceService.getAlbums();
+    // this.albums = this.DataServiceService.getAlbums();
     this.allAlbums = this.DataServiceService.getAlbums();
+
+
+
+    this.DataServiceService.getprofile()
+    .subscribe(
+      (albums: Album[]) => {
+        this.allAlbums = albums;
+        console.log(albums);
+
+      },
+      error => console.log(error)
+    )
   }
 
 

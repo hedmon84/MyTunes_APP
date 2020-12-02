@@ -19,7 +19,7 @@ namespace MyTunes_app.Core.Interfaces
         ServiceResult<Album> Buy_Song(int albumid, int songid,  bool buyclick);
         ServiceResult<Album> Buy_Album(int albumid, bool buyclick);
 
-        ServiceResult<string> Profile();
+        ServiceResult<IEnumerable<Album>> Profile();
 
     }
 }

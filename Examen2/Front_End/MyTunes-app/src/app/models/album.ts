@@ -9,6 +9,7 @@ export class Album{
         public price: number,
         public style: string,
         public  rating: number,
+        public  duration: number,
         public date_departure: string,
         public description: string,
         public img: string,

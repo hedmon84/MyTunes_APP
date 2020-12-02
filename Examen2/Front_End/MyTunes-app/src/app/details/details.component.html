@@ -21,12 +21,12 @@
           <div class="card" style="width: 18rem">
             <img src="{{ alb.img }}" class="card-img-top img-fluid" alt="" />
             <div class="card-body">
-              <h3 class="card-title">{{ alb.album_name}}</h3>
-              <p class="card-subtitle text-muted mb-2">{{ alb.artist_name}}</p>
+              <h3 class="card-title">{{ alb.album_name }}</h3>
+              <p class="card-subtitle text-muted mb-2">{{ alb.artist_name }}</p>
               <button
                 type="button"
                 [disabled]="alb.buyalbum"
-                (click)="buy_album(true);changeSuccessMessage()"
+                (click)="buy_album(true); changeSuccessMessage()"
                 class="btn btn-success"
               >
                 ${{ alb.price }} Buy
@@ -35,8 +35,6 @@
                 <ngb-rating
                   (rateChange)="selectChangeHandler($event)"
                   [rate]="alb.rating"
-                  
-                  
                 ></ngb-rating>
                 <hr />
                 <pre>Rate: <b>{{alb.rating}}</b></pre>
@@ -112,8 +110,7 @@
                           [disabled]="song.buyclick"
                           class="btn btn-outline-success"
                           (click)="
-                          buy_song(song.idsong);
-                            changeSuccessMessage()
+                            buy_song(song.idsong); changeSuccessMessage()
                           "
                         >
                           ${{ song.price }}

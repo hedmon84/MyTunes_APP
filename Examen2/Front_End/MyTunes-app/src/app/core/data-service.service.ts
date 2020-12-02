@@ -28,6 +28,17 @@ export class DataServiceService {
 
   }
 
+
+
+  getprofile(): Observable<Album[]> {
+
+    return this.httpClient.get<Album[]>(`${this.baseUrl}/home/profile`)
+    .pipe(
+      catchError(this.handleError)
+
+    )
+  }
+
   gotodetails( albumid : number ): Observable<Album>{
 
     console.log(albumid);

@@ -19,6 +19,8 @@ namespace MyTunes_app.Core.Entities
 
         public int Rating { get; set; }
 
+        public double Duration { get; set; }
+
         public string Date_departure { get; set; }
 
         public string Description { get; set; }
